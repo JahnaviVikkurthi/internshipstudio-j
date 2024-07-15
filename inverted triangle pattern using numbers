@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,count=10;
+    for(i=4;i<=10;i--)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d\t",count);
+            count--;
+        }
+        printf("\n");
+    }
+    return 0;
+}
